@@ -1,0 +1,51 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  background-color: #7267cb;
+  border: none;
+}
+
+.heading {
+  color: #b8e4f0;
+  font-family: "Shadows Into Light";
+  font-size: 23px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.text-box {
+  text-align: center;
+  margin-top: 63px;
+  /* display: block; */
+}
+
+.text-field {
+  width: 500px;
+  height: 55px;
+  color: white;
+  font-size: 22px;
+  border: 2px solid #98bae7;
+  border-radius: 30px;
+  padding: 13px;
+  outline: none;
+}
+
+::placeholder {
+  color: whitesmoke;
+  opacity: 0.3;
+}
+
+input[type="text"]:focus {
+  border: 2px solid #d1d08b;
+}
+
+#addBtn {
+  margin-left: 14px;
+  font-size: 25px;
+  color: white;
+  border: 2px solid #d1d08b;
+  border-radius: 32px;
+  padding: 5px;
+  margin-top: 20px;
+}
