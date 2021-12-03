@@ -49,3 +49,30 @@ input[type="text"]:focus {
   padding: 5px;
   margin-top: 20px;
 }
+
+#notes {
+  /* margin-left: 90px;
+  margin-top: 25px; */
+  margin-top: 40px;
+  text-align: center;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #d1d08b;
+  font-weight: 500;
+  list-style-type: "✔️";
+}
+
+.strike {
+  text-decoration: line-through;
+  color: cornsilk;
+}
+
+/* footer {
+  margin-bottom: 0px;
+  margin-top: 40vh;
+  position: absolute;
+}
+
+footer p {
+  text-align: center;
+} */
