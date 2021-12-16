@@ -113,11 +113,12 @@ footer p {
   #notes {
     /* text-align: center; */
     margin-left: 70px;
-    font-size: 10px;
+    font-size: 1px;
   }
 
   #addBtn {
     padding: 5px;
+    font-size: 70px;
     height: 5px;
   }
 }
