@@ -9,7 +9,7 @@
 .heading {
   color: #b8e4f0;
   font-family: "Shadows Into Light";
-  font-size: 23px;
+  font-size: 1.6vw;
   text-align: center;
   margin-top: 50px;
 }
@@ -24,7 +24,7 @@
   width: 500px;
   height: 55px;
   color: white;
-  font-size: 22px;
+  font-size: 2vw;
   border: 2px solid #98bae7;
   border-radius: 30px;
   padding: 13px;
@@ -42,7 +42,7 @@ input[type="text"]:focus {
 
 #addBtn {
   margin-left: 14px;
-  font-size: 25px;
+  font-size: 2vw;
   color: white;
   border: 2px solid #d1d08b;
   border-radius: 32px;
@@ -55,7 +55,7 @@ input[type="text"]:focus {
   margin-top: 25px; */
   margin-top: 40px;
   margin-left: 500px;
-  font-size: 1.5rem;
+  font-size: 2vw;
   cursor: pointer;
   color: #f7f57a;
   font-weight: 500;
@@ -73,6 +73,7 @@ input[type="text"]:focus {
 }
 
 footer p {
+  font-size: 1.3vw;
   position: fixed;
   bottom: 15px;
   left: 36%;
