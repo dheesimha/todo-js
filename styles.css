@@ -57,12 +57,14 @@ input[type="text"]:focus {
   margin-left: 500px;
   font-size: 1.5rem;
   cursor: pointer;
-  color: #d1d08b;
+  color: #f7f57a;
   font-weight: 500;
   list-style-type: "✔️";
   padding-left: 15px;
   line-height: 54px;
   margin-bottom: 92px;
+  /* font-family: "Shadows Into Light"; */
+  font-family: cursive;
 }
 
 .strike {
@@ -70,12 +72,11 @@ input[type="text"]:focus {
   color: cornsilk;
 }
 
-/* footer {
-  margin-bottom: 0px;
-  margin-top: 40vh;
-  position: absolute;
-}
-
 footer p {
+  position: fixed;
+  bottom: 15px;
+  left: 36%;
   text-align: center;
-} */
+  color: azure;
+  font-family: cursive;
+}

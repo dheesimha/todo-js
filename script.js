@@ -10,16 +10,21 @@ function addNoteFunc() {
     currentText = document.getElementById("currentText").value
     // console.log("Add button was clicked")
     console.log(currentText)
-    notesCollection.push(currentText);
-    console.log(notesCollection)
+
+    if (currentText != "") {
+        notesCollection.push(currentText);
+        console.log(notesCollection)
 
 
-    let z = document.createElement("li")
-    z.innerHTML = currentText
-    document.querySelector("#notes").appendChild(z)
-    // document.write(`<ul>${note}</ul>`)
+        let z = document.createElement("li")
+        z.innerHTML = currentText
+        document.querySelector("#notes").appendChild(z)
+        // document.write(`<ul>${note}</ul>`)
 
-    document.getElementById("currentText").value = ""
+        document.getElementById("currentText").value = ""
+
+    }
+
 
 }
 
