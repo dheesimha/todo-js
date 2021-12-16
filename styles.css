@@ -21,7 +21,7 @@
 }
 
 .text-field {
-  width: 500px;
+  width: 100%;
   height: 55px;
   color: white;
   font-size: 2vw;
@@ -29,6 +29,7 @@
   border-radius: 30px;
   padding: 13px;
   outline: none;
+  margin: auto;
 }
 
 ::placeholder {
@@ -50,6 +51,10 @@ input[type="text"]:focus {
   margin-top: 20px;
 }
 
+#addBtn:hover {
+  background-color: #e9e9e9;
+  color: #0094bd;
+}
 #notes {
   /* margin-left: 90px;
   margin-top: 25px; */
@@ -74,10 +79,33 @@ input[type="text"]:focus {
 
 footer p {
   font-size: 1.3vw;
-  position: fixed;
-  bottom: 15px;
-  left: 36%;
+  clear: both;
+  position: relative;
+  height: 20px;
+  margin-top: 10px;
+  /* bottom: 15px;
+  left: 36%; */
   text-align: center;
   color: azure;
   font-family: cursive;
+}
+
+@media screen and (max-width: 450px) {
+  .text-field {
+    margin: 6px;
+  }
+
+  .heading {
+    font-size: 13px;
+  }
+
+  .text-field {
+    font-size: 19px;
+  }
+
+  footer p {
+    font-size: 12px;
+    height: 5px;
+    margin-top: 3px;
+  }
 }
