@@ -109,4 +109,8 @@ footer p {
     height: 5px;
     margin-top: 3px;
   }
+
+  #notes {
+    margin: auto;
+  }
 }
